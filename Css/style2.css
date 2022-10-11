@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+
+
+body{
+    background-color: rgb(47, 47, 47);
+}
+
+.texto{
+    font-family: 'Ramabhadra', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+
+.imagens img {
+    -webkit-transition: 400ms ease 100ms;
+    -moz-transition: 400ms ease 100ms;
+    transition: 400ms ease 100ms;
+}
+
+.imagens:hover img:not(:hover) {
+    filter: blur(5px);
+}
+.imagens{
+    left: 300px;
+    color: white;
+    opacity: 1;
+    z-index: -1;
+}
+.imagemgeral{
+    margin-left: 400px;
+    position: absolute;
+    left: 17%;
+}
+
+.imagem1{
+    margin-left: -19px;
+    z-index: 1;
+    -webkit-transition: 400ms ease 100ms;
+    -moz-transition: 400ms ease 100ms;
+    transition: 400ms ease 100ms;
+}
+.imagem2{
+    margin-left: 300px;
+    z-index: 1;
+    -webkit-transition: 400ms ease 100ms;
+    -moz-transition: 400ms ease 100ms;
+    transition: 400ms ease 100ms;
+}
+.imagem3{
+    margin-left: 605px;
+    z-index: 1;
+    -webkit-transition: 400ms ease 100ms;
+    -moz-transition: 400ms ease 100ms;
+    transition: 400ms ease 100ms;
+}
+.imagem4{
+    margin-left: 922px;
+    z-index: 1;
+    -webkit-transition: 400ms ease 100ms;
+    -moz-transition: 400ms ease 100ms;
+    transition: 400ms ease 100ms;
+}
+.imagem1:hover{
+    opacity: 2;
+    z-index: 5;
+    border: 1px solid rgba(255, 255, 255, 0.281)
+}
+.imagem2:hover{
+    opacity: 2;
+    z-index: 5;
+    border: 1px solid rgba(255, 255, 255, 0.281)
+}
+.imagem3:hover{
+    opacity: 2;
+    z-index: 5;
+    border: 1px solid rgba(255, 255, 255, 0.281)
+}
+.imagem4:hover{
+    opacity: 2;
+    z-index: 5;
+    border: 1px solid rgba(255, 255, 255, 0.281)
+}
+.br{
+    position: absolute;
+    font-family: 'Ramabhadra', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.descri{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0; 
+    -webkit-transition: 400ms ease 100ms;
+    -moz-transition: 400ms ease 100ms;
+    transition: 400ms ease 100ms;
+}
+
+.imagem1:hover .descri{
+    opacity: 1;
+    visibility: visible;
+    z-index: 6;
+    top: 200px;
+    margin-left: 300px;
+}
