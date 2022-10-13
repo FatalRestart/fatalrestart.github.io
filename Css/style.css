@@ -33,6 +33,7 @@ body{
     font-size: 25px;
     position: absolute;
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.63));
+    z-index: 5;
 }
 
 .texto1{
@@ -43,6 +44,7 @@ body{
     left: 44%;
     position: absolute;
     filter: drop-shadow( 10px 10px 10px rgba(0, 0, 0, 0.404));
+    z-index: 5;
 }
 
 
